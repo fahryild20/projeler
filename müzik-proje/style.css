@@ -1,0 +1,32 @@
+ body{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    height: 100vh;
+    background-image: url(img/depositphotos_371208666-stock-illustration-design-elements-shell-swirl-circle.jpg);
+    background-size: cover;
+    
+}
+.container{
+    width: 400px;
+    position: relative;
+    right: 263px;
+}
+#progress .times,
+.card-footer,
+.volume-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.volume-container i{
+    margin-right: 10px;
+}
+li.playing{
+    background-color: #0b5eb7;
+    color: #ffff;
+}
+li.players{
+    background-color: #0b5eb7;
+    color: #ffff;
+}
